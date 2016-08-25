@@ -1,4 +1,4 @@
 get '/' do
-  # erb :index
-  redirect '/users'
+  session[:monster] = "Cookies!"
+  erb :index
 end
